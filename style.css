@@ -1,5 +1,60 @@
-body {font-family: 'Playfair Display', serif; font-weight: 500;}
-      .main { margin-left: 5%; font-size: 1.7vw; margin-right: 10%;}
-      .head { font-size: 4vw; text-align: left; text-decoration: underline; text-decoration-color: #eac2ff;}
-      head { font-weight: 600; color: black;}
-      h2 { font: 3em; color: turquoise; margin-left: 2.5%; font-size: 2vw;}
+body {
+	font-family: 'Playfair Display', serif; 
+	font-weight: 500;
+}
+
+.main { 
+	margin-left: 5%; 
+	font-size: 1.7vw; 
+	margin-right: 10%;
+}
+
+.head { 
+	font-size: 4vw; 
+	text-align: left; 
+	text-decoration: underline; 
+	text-decoration-color: #eac2ff;
+}
+
+head { 
+	font-weight: 600; 
+	color: black;
+}
+
+h2 { 
+	font: 3em; 
+	color: turquoise; 
+	margin-left: 2.5%; 
+	font-size: 2vw;
+}
+
+nav {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 1.7vw;  
+	border-bottom: solid 1vw turquoise;
+	background-color: #53a376;
+}
+
+.toolbar { 
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+a.plain:link, a.plain:visited {
+  	text-decoration: none;
+  	background-color: #53a376;
+ 	color: black;
+ 	font-family: 'Kanit', sans-serif;
+ 	font-weight: 500;
+}
+a.using:hover, a.using:active {
+	background-color: #244733;
+	text-decoration: none;
+	color: white;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 500;
+ 	font-style: italic;
+}
