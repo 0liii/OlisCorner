@@ -1,6 +1,38 @@
 body {
 	font-family: 'Playfair Display', serif; 
 	font-weight: 500;
+}* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=submit] {
+  background-color: #f7c6e5;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #f59ad4;
+  color: white;
+  font-style: italic;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 .main { 
@@ -32,8 +64,8 @@ nav {
 	padding-top: 1em;
 	padding-bottom: 1em;
 	font-size: 1.7vw;  
-	border-bottom: solid 1vw turquoise;
-	background-color: #53a376;
+	border-bottom: solid 1vw #f59ad4;
+	background-color: #f7c6e5;
 }
 
 .toolbar { 
@@ -45,13 +77,13 @@ nav {
 
 a.plain:link, a.plain:visited {
   	text-decoration: none;
-  	background-color: #53a376;
+  	background-color: #f7c6e5;
  	color: black;
  	font-family: 'Kanit', sans-serif;
  	font-weight: 500;
 }
 a.using:hover, a.using:active {
-	background-color: #244733;
+	background-color: #f59ad4;
 	text-decoration: none;
 	color: white;
 	font-family: 'Kanit', sans-serif;

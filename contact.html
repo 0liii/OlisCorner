@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<script src="my-project.js"></script>
+
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=2">
+	<title>Oli's Corner</title>
+    <link href="./images/favicon.ico" rel="icon" type="image/x-icon">
+
+</head>
+<body>
+<img src="./images/cobine.jpg" width=100%></img>
+<form onsubmit="return false">
+</form>
+
+<nav>
+  <a class = "toolbar plain using" href="index.html">home</a>
+  <a class = "toolbar plain using" href="about.html">about the author</a>
+  <a class = "toolbar plain using" href="contact.html">contact me</a>
+</nav>
+
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email...">
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="What is your reason for contact?">
+
+    <label for="message">Add a message</label>
+    <textarea id="message" name="message" placeholder="Write something..." style="height:200px"></textarea>
+
+    <button type="button" onclick="submit();">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
+
