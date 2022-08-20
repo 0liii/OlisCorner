@@ -3,7 +3,7 @@ body {
 	font-weight: 500;
 }* {box-sizing: border-box;}
 
-input[type=text], select, textarea {
+input[type=text], select, textarea, [type=email] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -31,7 +31,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #d3f2f5;
   padding: 20px;
 }
 
@@ -44,6 +44,13 @@ input[type=submit]:hover {
 .head { 
 	font-size: 4vw; 
 	text-align: left; 
+	text-decoration: underline; 
+	text-decoration-color: #eac2ff;
+}
+
+.specialHead { 
+	font-size: 4vw; 
+	text-align: center; 
 	text-decoration: underline; 
 	text-decoration-color: #eac2ff;
 }

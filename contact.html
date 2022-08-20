@@ -12,8 +12,8 @@
 <head>
 
 	<meta name="viewport" content="width=device-width, initial-scale=2">
-	<title>Oli's Corner</title>
-    <link href="./images/favicon.ico" rel="icon" type="image/x-icon">
+	<title>Contact me!</title>
+  <link href="./images/favicon.ico" rel="icon" type="image/x-icon">
 
 </head>
 <body>
@@ -31,23 +31,24 @@
 <h3>Contact Form</h3>
 
 <div class="container">
-  <form action="/action_page.php">
+  <form action="https://form.submit.co/olivia.wyzga@gmail.com" method="POST">
     
     <label for="lname">Name</label>
-    <input type="text" id="name" name="vname" placeholder="Your name...">
+    <input type="text" name="name" placeholder="Your name..." required>
+
+    <input type="hidden" name="_next" value="https://0liii.github.io/OlisCorner/thanks.html">
 
     <label for="email">Email</label>
-    <input type="text" id="em" name="vemail" placeholder="Your email...">
+    <input type="email" name="email" placeholder="Your email..." required>
 
     <label for="subject">Subject</label>
-    <input type="text" id="sub" name="sub" placeholder="What is your reason for contact?">
+    <input type="text" name="subject" placeholder="What is your reason for contact?" required>
 
     <label for="message">Add a message</label>
-    <textarea id="msg" name="msg" placeholder="Write something..." style="height:200px"></textarea>
+    <textarea name="message" placeholder="Write something..." style="height:200px" required></textarea>
 
-    <input id="sumbit" name="send" type="submit" value="Submit">
+    <button type="submit">Send</button>
   </form>
-  <h3><?php include "secure_email_code.php"?></h3>
 </div>
 </body>
 </html>
