@@ -133,3 +133,13 @@ a.using:hover, a.using:active {
 	font-weight: 500;
  	font-style: italic;
 }
+
+a {
+	text-decoration: solid line-through 20px rgba(234, 194, 255, 0.4);
+	color: black;
+}
+
+a:visited {
+	text-decoration: solid underline 4px #eac2ff;
+	color: black;
+}
